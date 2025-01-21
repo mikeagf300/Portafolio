@@ -21,8 +21,3 @@ En mis proyectos utilizo una amplia gama de tecnologías modernas, algunas de la
 - **Frontend**: React, Next.js, HTML5, CSS3, Tailwind CSS, Bootstrap, Chakra UI
 - **Backend**: Node.js, Express, NestJS, TypeScript, PostgreSQL, MongoDB
 - **Herramientas**: Git, GitHub, Docker, Nginx, Webpack, Babel
-    ...react.configs.recommended.rules,
-    ...react.configs['jsx-runtime'].rules,
-  },
-})
-```
