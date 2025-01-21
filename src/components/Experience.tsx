@@ -23,15 +23,15 @@ const Experience: React.FC = () => {
       <div className="flex flex-col items-center">
         {/* Experiencias */}
         {experiences.map((experience, index) => (
-          <div key={index} className="mb-12 flex justify-between items-start w-full max-w-4xl">
+          <div key={index} className="mb-12 flex flex-col lg:flex-row items-center justify-between w-full max-w-4xl">
             {/* Años */}
-            <div className="flex flex-col items-center">
-              <div className="bg-yellow-300 text-[#242A31] p-2 rounded-full mb-4 mr-5">{experience.year}</div>
+            <div className="flex flex-col items-center mb-4 lg:mb-0">
+              <div className="bg-yellow-300 text-[#242A31] p-2 rounded-full mb-4">{experience.year}</div>
             </div>
 
             {/* Tarjeta de la experiencia */}
             <div
-              className={`bg-[#1E262D] p-6 rounded-lg shadow-lg w-full ${index % 2 === 0 ? 'ml-8' : 'mr-8'} 
+              className={`bg-[#1E262D] p-6 rounded-lg shadow-lg w-full ${index % 2 === 0 ? 'lg:ml-8' : 'lg:mr-8'} 
                 ${index % 2 === 0 ? 'text-left' : 'text-right'}`}
             >
               <h3 className="text-xl font-semibold">{experience.title}</h3>

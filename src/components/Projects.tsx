@@ -1,3 +1,5 @@
+import React from 'react';
+
 type Project = {
   id: number;
   name: string;
@@ -8,16 +10,14 @@ type Project = {
   deployLink: string; // Enlace al proyecto deployado
 };
 
-import React from 'react';
-
 const Projects: React.FC = () => {
   const projects: Project[] = [
     {
       id: 1,
       name: "Peludopolis E-commerce",
-      description: "Descripción: Plataforma de ecommerce enfocada en productos para mascotas, con funcionalidades como autenticación, roles de usuario, pasarela de pagos, geolocalización de tiendas físicas y un dashboard administrativo para la gestión eficiente.",
+      description: "Plataforma de ecommerce enfocada en productos para mascotas, con funcionalidades como autenticación, roles de usuario, pasarela de pagos, geolocalización de tiendas físicas y un dashboard administrativo para la gestión eficiente.",
       image: "peludopolis.jpg", // Imagen de ejemplo
-      technologies: "React, Next.js, Nest,js, GoogleOAuth, JWT, TypeScript, Node.js, Tailwind.css",
+      technologies: "React, Next.js, Nest.js, GoogleOAuth, JWT, TypeScript, Node.js, Tailwind.css",
       githubLink: "https://github.com/project1",
       deployLink: "https://peludopolis-pf.onrender.com/",
     },
@@ -25,7 +25,7 @@ const Projects: React.FC = () => {
       id: 2,
       name: "Task Manager",
       description: "Aplicación para la gestión de tareas, diseñada para crear, leer, actualizar y eliminar tareas.",
-      image: "task manager.jpg", // Imagen de ejemplo
+      image: "task-manager.jpg", // Imagen de ejemplo
       technologies: "React, Tailwind.css, MongoDB",
       githubLink: "https://github.com/project2",
       deployLink: "https://task-manager-frontend-alpha-dusky.vercel.app/",
@@ -34,10 +34,10 @@ const Projects: React.FC = () => {
 
   return (
     <section id="projects" className="p-8 bg-[#242A31]">
-      <h2 className="text-3xl font-bold mb-6 text-yellow-300">Projectos</h2>
-      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+      <h2 className="text-3xl font-bold mb-6 text-yellow-300">Proyectos</h2>
+      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
         {projects.map((project) => (
-          <div key={project.id} className="bg-white p-4 rounded-lg shadow-lg relative">
+          <div key={project.id} className="bg-white p-4 rounded-lg shadow-lg relative group">
             {/* Imagen con iconos */}
             <div className="relative">
               <img
@@ -83,4 +83,3 @@ const Projects: React.FC = () => {
 };
 
 export default Projects;
-
