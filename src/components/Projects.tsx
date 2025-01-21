@@ -18,16 +18,16 @@ const Projects: React.FC = () => {
       description: "Plataforma de ecommerce enfocada en productos para mascotas, con funcionalidades como autenticación, roles de usuario, pasarela de pagos, geolocalización de tiendas físicas y un dashboard administrativo para la gestión eficiente.",
       image: "peludopolis.jpg", // Imagen de ejemplo
       technologies: "React, Next.js, Nest.js, GoogleOAuth, JWT, TypeScript, Node.js, Tailwind.css",
-      githubLink: "https://github.com/project1",
+      githubLink: "https://github.com/peludopolis/peludopolis",
       deployLink: "https://peludopolis-pf.onrender.com/",
     },
     {
       id: 2,
       name: "Task Manager",
       description: "Aplicación para la gestión de tareas, diseñada para crear, leer, actualizar y eliminar tareas.",
-      image: "task-manager.jpg", // Imagen de ejemplo
+      image: "task manager.jpg", // Imagen de ejemplo
       technologies: "React, Tailwind.css, MongoDB",
-      githubLink: "https://github.com/project2",
+      githubLink: "https://github.com/mikeagf300/task-manager-frontend",
       deployLink: "https://task-manager-frontend-alpha-dusky.vercel.app/",
     },
   ];
