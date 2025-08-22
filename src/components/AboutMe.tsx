@@ -1,4 +1,4 @@
-import React from 'react';
+import React from "react";
 
 const AboutMe: React.FC = () => {
   return (
@@ -23,16 +23,19 @@ const AboutMe: React.FC = () => {
             Sobre mí
           </h2>
           <p className="text-base sm:text-lg leading-relaxed">
-            ¡Hola! Soy un desarrollador Full Stack apasionado por la tecnología y
-            la innovación. Me especializo en crear soluciones tecnológicas que
-            impacten positivamente en las personas. Siempre estoy buscando nuevos
-            desafíos para aprender y crecer tanto personal como profesionalmente.
+            ¡Hola! Soy un desarrollador full stack con experiencia trabajando
+            con tecnologías como Next.js, React y TypeScript, y actualmente me
+            desenvuelvo en Front-end.
           </p>
           <p className="text-base sm:text-lg mt-4">
-            En mi tiempo libre disfruto de la programación, aprender nuevas
-            tecnologías y colaborar en proyectos que hacen la diferencia.
+            Mi experiencia incluye el desarrollo de soluciones robustas y
+            optimizadas utilizando Next.js, PostgreSQL, React, MySQL y consumo
+            de API´s, lo que me permite aplicar un enfoque integral en cada
+            proyecto.
           </p>
-          <p className="text-base sm:text-lg mt-4">Ubicado en Cuernavaca, Morelos, México</p>
+          <p className="text-base sm:text-lg mt-4">
+            Ubicado en Cuernavaca, Morelos, México
+          </p>
         </div>
       </div>
 

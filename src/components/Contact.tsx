@@ -1,9 +1,7 @@
 import React, { useState } from "react";
-// @ts-ignore
-import { MailIcon, PhoneIcon, GlobeAltIcon } from '@heroicons/react/outline';
+import { MailIcon } from "@heroicons/react/outline";
 
 import { LinkedinIcon, GithubIcon, WhatsappIcon } from "./Icons"; // Íconos personalizados
-
 
 const Contact: React.FC = () => {
   const [formData, setFormData] = useState({
@@ -28,13 +26,18 @@ const Contact: React.FC = () => {
 
   return (
     <section id="contact" className="p-8 bg-[#242A31] text-gray-800">
-      <h2 className="text-3xl font-bold text-center mb-6 text-white">Contacto</h2>
+      <h2 className="text-3xl font-bold text-center mb-6 text-white">
+        Contacto
+      </h2>
       <div className="flex flex-col lg:flex-row justify-between items-start gap-8">
         {/* Formulario */}
         <div className="w-full lg:w-1/2 bg-white p-6 shadow-lg rounded-lg">
           <form onSubmit={handleSubmit}>
             <div className="mb-4">
-              <label htmlFor="name" className="block text-sm font-semibold mb-2">
+              <label
+                htmlFor="name"
+                className="block text-sm font-semibold mb-2"
+              >
                 Nombre
               </label>
               <input
@@ -48,7 +51,10 @@ const Contact: React.FC = () => {
               />
             </div>
             <div className="mb-4">
-              <label htmlFor="email" className="block text-sm font-semibold mb-2">
+              <label
+                htmlFor="email"
+                className="block text-sm font-semibold mb-2"
+              >
                 Correo electrónico
               </label>
               <input
@@ -62,7 +68,10 @@ const Contact: React.FC = () => {
               />
             </div>
             <div className="mb-4">
-              <label htmlFor="message" className="block text-sm font-semibold mb-2">
+              <label
+                htmlFor="message"
+                className="block text-sm font-semibold mb-2"
+              >
                 Mensaje
               </label>
               <textarea
