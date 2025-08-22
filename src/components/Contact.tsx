@@ -25,7 +25,7 @@ const Contact: React.FC = () => {
   };
 
   return (
-    <section id="contact" className="p-8 bg-[#242A31] text-gray-800">
+    <section id="contact" className="p-8 text-gray-800">
       <h2 className="text-3xl font-bold text-center mb-6 text-white">
         Contacto
       </h2>

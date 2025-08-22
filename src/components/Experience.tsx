@@ -33,7 +33,7 @@ const Experience: React.FC = () => {
   ];
 
   return (
-    <section id="experience" className="p-8 bg-[#242A31] text-white">
+    <section id="experience" className="p-8 text-white">
       <h2 className="text-3xl font-bold text-yellow-300 mb-6">
         Experiencia Laboral
       </h2>

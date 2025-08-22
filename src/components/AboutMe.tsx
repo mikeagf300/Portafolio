@@ -4,7 +4,7 @@ const AboutMe: React.FC = () => {
   return (
     <section
       id="about"
-      className="flex flex-col items-center justify-center min-h-screen p-8 bg-[#242A31] text-white"
+      className="flex flex-col items-center justify-center min-h-screen p-8 text-white"
     >
       {/* Contenedor de la imagen y el texto */}
       <div className="flex flex-col md:flex-row items-center justify-center w-full max-w-5xl">
